@@ -2,10 +2,10 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name    = "fluent-plugin-jq"
+  spec.name    = "test-jq"
   spec.version = File.read('VERSION')
-  spec.authors       = ['Splunk Inc.']
-  spec.email         = ['DataEdge@splunk.com']
+  spec.authors       = ['Rock']
+  spec.email         = ['rbaek@splunk.com']
 
   spec.summary       = %q{Fluentd plugins uses the jq engine.}
   spec.description   = %q{fluent-plungin-jq is a collection of fluentd plugins which uses the jq engine to transform or format fluentd events.}

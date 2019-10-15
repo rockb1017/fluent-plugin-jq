@@ -85,7 +85,7 @@ jobs:
       - run:
           name: Upload gem to Ruby Gem
           command: |
-            .circleci/push_gems_to_rubygems.sh
+            .circleci/push_gem_to_rubygems.sh
 
   check_version:
     docker:
